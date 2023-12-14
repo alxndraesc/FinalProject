@@ -1,0 +1,56 @@
+.container{
+    background-color:rgb(223, 207, 187);
+    height: 90px;
+  }
+.cover{
+  width: 100%;
+  position:relative;
+  background-position: center;
+  background-size: auto;
+  height: 100vh;
+}
+.bg{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: rgb(223, 207, 187);
+  border: rgb(223, 207, 187) ridge 5px ;
+}
+.p1 img{
+  width: 300px;
+  height: 200px;
+  float: right;
+  border:rgb(109, 93, 72) ridge;
+}
+p{
+  margin-right: 20px;
+  padding-right: 310px;
+  font-size: 15px;
+}
+.igicon{
+  display: inline;
+  margin-left: 43%;
+}
+.twticon{
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: rgb(133, 110, 80);
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}

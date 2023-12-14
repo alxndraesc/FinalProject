@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+    background-color:rgb(223, 207, 187);
+    height: 90px;
+}
+body{
+	background-color: whitesmoke;
+  }
+.body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image:url(gradient1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+  .logo{
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: left;
+  }
+  .logo img{
+	height: 60px;
+	width: 60px;
+  }
+  .name{
+	color: rgb(133, 110, 80);
+	font-size: 35px;
+	font-family: 'Apple Chancery';
+	padding-left: 3px;
+	padding-top: 20px;
+	float: left
+  }
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(223, 207, 187);
+  }
+  li {
+	float: right;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-right: 50px;
+	font-size: 30px;
+	padding-right: 20px;
+  }
+  li a {
+	display: block;
+	color: rgb(133, 110, 80);
+	font-family: 'Times New Roman';
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+  li a:hover {
+	color: beige;
+	}
+.body{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 30%;
+	text-align: center;
+	color: rgb(133, 110, 80);
+}
+.heading h1{
+	font-size: 40px;
+}
+.heading a{
+	text-decoration: none;
+	color: rgb(133, 110, 80);
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: rgb(223, 207, 187);
+}
+.heading a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.tours{
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.places{
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+.places h2{
+	color: rgb(133, 110, 80);
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 30px 30px;
+	background-color: rgb(223, 207, 187);
+}
+.places a{
+	text-decoration: none;
+	color: rgb(133, 110, 80);
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	padding: 12px 30px;
+	background-color: rgb(223, 207, 187);
+}
+.places a:hover{
+	background-color: rgb(196, 168, 132);
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: rgb(133, 110, 80);
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+

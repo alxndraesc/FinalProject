@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/temp.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var travelsHeading = document.querySelector('.name');
+
+            travelsHeading.addEventListener('click', function () {
+                alert('Welcome to My Travels!');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="logo"> <img src="./images/logo.png"></div>
+            <h2 class="name"> My Travels</h2>
+            <ul>
+                <li><a rel="import" href="./about.html">About</a></li>
+                <li><a href="./destinations.html">Destinations</a></li>
+                <li><a rel="import" href="./journal.html">Journal</a></li>
+            </ul>
+        </div>
+        <div class="entry">
+            <img src="./images/sunset.jpg" alt="beach" class="cover"> 
+            <div class="greeting">
+            <h3> Solace,<br>Peace,<br>Serenity</h3>
+            </div>
+            <br><br><br>
+            <div class="bg">
+            <br><br>
+            <p><span class="p1"><img src="./images/sunset2.jpg"></span></p>
+            <p class="quote">"The beach is not a place to work; to read, write or to think."<br>-Anne Morrow Lindbergh's<br>Beaches are more than just a physical location-they are a  <br>state of mind. where we come to escape the stresses of  <br>everyday life, let the sound of the waves wash away our <br>worries, and to simply be present in the moment.
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            </p>
+            </div>
+            <br><br><br>
+            <div class="icons">
+            <a href="#"><img src="./images/ig.png" class="igicon"></a>
+            <a href="#"><img src="./images/twt.png" class="twticon"></a>
+            <a href="#"><img src="./images/pin.png" class="pinicon"></a>
+            </div>
+            <br>
+            <p class="credits">© 2023</p>
+            <div class="footer">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <br>
+    </div>
+</body>
+</html>
